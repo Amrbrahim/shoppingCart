@@ -1,0 +1,126 @@
+.page-display {
+  padding-bottom: 2rem;
+}
+
+.contact-us-head {
+  max-width: 160rem;
+  background-image: url("../img/contact-us.jpg");
+  background-size: cover;
+  height: 30rem;
+  max-height: 30rem;
+}
+
+.form-section {
+  padding: 8rem;
+}
+
+.form-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+}
+
+.store-location {
+  background-color: rgba(128, 128, 128, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 2rem;
+}
+
+.store-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.store-info h4 {
+  font-size: 2.4rem;
+  font-family: "Red Hat Display", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.store-info P {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  max-width: 24rem;
+  line-height: 2rem;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.form-heading {
+  font-size: 3rem;
+  font-family: "Red Hat Display", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.form-text {
+  font-size: 1.5rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.first-section-container {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.second-section-container {
+  align-self: center;
+}
+
+.contact-form input {
+  padding: 1rem;
+  width: 40rem;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid rgba(128, 128, 128, 0.39);
+  text-transform: capitalize;
+  outline: none;
+}
+
+.comment {
+  border: 1px solid rgba(128, 128, 128, 0.39);
+  max-width: 82.6rem;
+  max-height: 34rem;
+  outline: none;
+  width: 82.6rem;
+  height: 20rem;
+  font-family: "Poppins", sans-serif;
+  padding-left: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+.second-section-container input {
+  width: 82rem;
+}
+
+.submit-btn {
+  background: rgba(0, 0, 0, 0.86);
+  color: white;
+  padding: 1.4rem 8rem 1.4rem 8rem;
+  border: 1px solid rgba(0, 0, 0, 0.86);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  align-self: flex-start;
+  margin-left: 3.2rem;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  transform: scale(1.02);
+}
